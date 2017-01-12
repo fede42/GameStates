@@ -13,6 +13,12 @@ void PlayState::draw()
 	ofDrawCircle(ofGetWidth() / 2, ofGetHeight() / 2, 10);
 }
 
+void PlayState::exit()
+{
+	std::cout << "Deleting Play State...";
+	delete this;
+}
+
 void PlayState::keyPressed(int key)
 {
 }

@@ -19,6 +19,9 @@
     <ClCompile Include="src\PlayState.cpp">
       <Filter>src\GameManager</Filter>
     </ClCompile>
+    <ClCompile Include="src\MainMenu.cpp">
+      <Filter>src\GameManager</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="src">
@@ -42,6 +45,9 @@
       <Filter>src\GameManager</Filter>
     </ClInclude>
     <ClInclude Include="src\PlayState.h">
+      <Filter>src\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MainMenu.h">
       <Filter>src\GameManager</Filter>
     </ClInclude>
   </ItemGroup>

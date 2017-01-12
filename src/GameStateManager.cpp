@@ -16,6 +16,7 @@ void GameStateManager::changeState(GameState * gState)
 {
 	if (!states.empty())
 	{
+		states.back()->exit();
 		states.pop_back();
 	}
 	states.push_back(gState);

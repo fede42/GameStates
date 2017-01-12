@@ -17,6 +17,12 @@ void IntroState::draw()
 	ofDrawCircle(ofGetWidth() / 2, ofGetHeight() / 2, 50);
 }
 
+void IntroState::exit()
+{
+	std::cout << "Deleting Intro State...";
+	delete this;
+}
+
 void IntroState::keyPressed(int key)
 {
 	if (key == 'a' || key == 'A')
